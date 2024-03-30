@@ -9,6 +9,9 @@ export default function Home() {
             <Link href='/recipe-page'>
                 <h3 className='text-3xl text-blue-600'>Recipe Page</h3>
             </Link>
+            <Link href='/social-links-profile'>
+                <h3 className='text-3xl text-blue-600'>Social Links Profile</h3>
+            </Link>
         </main>
     )
 }

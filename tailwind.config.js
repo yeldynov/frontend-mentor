@@ -10,6 +10,7 @@ module.exports = {
             fontFamily: {
                 outfit: ['outfit', 'sans-serif'],
                 youngserif: ['young-serif', 'sans-serif'],
+                inter: ['inter', 'sans-serif'],
             },
         },
     },
