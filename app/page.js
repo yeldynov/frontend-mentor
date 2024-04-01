@@ -12,6 +12,9 @@ export default function Home() {
             <Link href='/social-links-profile'>
                 <h3 className='text-3xl text-blue-600'>Social Links Profile</h3>
             </Link>
+            <Link href='/blog-preview-card  '>
+                <h3 className='text-3xl text-blue-600'>Blog Preview Card</h3>
+            </Link>
         </main>
     )
 }
