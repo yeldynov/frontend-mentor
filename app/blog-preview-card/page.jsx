@@ -17,14 +17,14 @@ const BlogPreviewCard = () => {
                     className='object-cover flex-none order-0 self-stretch flex-grow-0 my-6 rounded-lg bg-yellow-400'
                 />
                 <div className=''>
-                    <button className='flex flex-row justify-center items-center p-3 flex-none order-0 flex-grow-0 my-3 rounded-md bg-yellow-400 font-bold'>
+                    <button className='flex flex-row justify-center items-center p-3 flex-none order-0 flex-grow-0 my-3 rounded-md bg-yellow-400 font-bold hover:text-yellow-400 hover:bg-black'>
                         Learning
                     </button>
                     <p className='flex flex-col justify-start items-start p-0 flex-none order-1 flex-grow-0 my-3 text-black font-figtree text-base font-medium leading-6 tracking-normal text-left'>
                         Published 21 Dec 2023
                     </p>
                     <h1
-                        className='flex flex-col justify-start items-start p-0 flex-none order-1 flex-grow-0 my-3 text-black font-Figtree  leading-6 tracking-normal text-left   font-figtree text-2xl font-extrabold hover:text-yellow-400 cursor:pointer
+                        className='flex flex-col justify-start items-start p-0 flex-none order-1 flex-grow-0 my-3 text-black font-Figtree  leading-6 tracking-normal text-left   font-figtree text-2xl font-extrabold hover:text-yellow-400 cursor-pointer
                     '
                     >
                         HTML & CSS foundations
@@ -42,7 +42,7 @@ const BlogPreviewCard = () => {
                         alt='User Avatar'
                         className='flex-none order-0 flex-grow-0 mx-3'
                     />
-                    <span className='flex flex-row justify-start items-center p-0 flex-none order-1 flex-grow-0 mx-3 text-black font-Figtree text-sm font-extrabold leading-6 tracking-normal text-left'>
+                    <span className='flex flex-row justify-start items-center p-0 flex-none order-1 flex-grow-0 mx-3 text-black font-Figtree text-sm font-extrabold leading-6 tracking-normal text-left hover:text-yellow-400 cursor-pointer'>
                         Nico Crabb
                     </span>
                 </div>
