@@ -24,7 +24,7 @@ const BlogPreviewCard = () => {
                         Published 21 Dec 2023
                     </p>
                     <h1
-                        className='flex flex-col justify-start items-start p-0 flex-none order-1 flex-grow-0 my-3 text-black font-Figtree  leading-6 tracking-normal text-left   font-figtree text-2xl font-extrabold
+                        className='flex flex-col justify-start items-start p-0 flex-none order-1 flex-grow-0 my-3 text-black font-Figtree  leading-6 tracking-normal text-left   font-figtree text-2xl font-extrabold hover:text-yellow-400 cursor:pointer
                     '
                     >
                         HTML & CSS foundations
