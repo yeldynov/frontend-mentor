@@ -3,60 +3,79 @@
 @tailwind utilities;
 
 :root {
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --foreground-rgb: 255, 255, 255;
-        --background-start-rgb: 0, 0, 0;
-        --background-end-rgb: 0, 0, 0;
-    }
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
 }
 
 body {
-    color: rgb(var(--foreground-rgb));
+  color: rgb(var(--foreground-rgb));
 }
 
 @layer utilities {
-    .text-balance {
-        text-wrap: balance;
-    }
+  .text-balance {
+    text-wrap: balance;
+  }
 }
 
 @font-face {
-    font-family: 'outfit';
-    font-style: regular;
-    font-weight: 400;
-    src: url('/recipe-page/fonts/outfit/static/Outfit-Regular.ttf');
+  font-family: 'outfit';
+  font-style: regular;
+  font-weight: 400;
+  src: url('/recipe-page/fonts/outfit/static/Outfit-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'young-serif';
-    font-style: regular;
-    font-weight: 400;
-    src: url('/recipe-page/fonts/young-serif/YoungSerif-Regular.ttf');
+  font-family: 'young-serif';
+  font-style: regular;
+  font-weight: 400;
+  src: url('/recipe-page/fonts/young-serif/YoungSerif-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'inter';
-    font-style: regular;
-    font-weight: 400;
-    src: url('/social-links-profile/fonts/Inter-VariableFont_slnt\,wght.ttf');
+  font-family: 'inter';
+  font-style: regular;
+  font-weight: 400;
+  src: url('/social-links-profile/fonts/Inter-VariableFont_slnt\,wght.ttf');
 }
 
 @font-face {
-    font-family: 'figtree';
-    font-style: bold;
-    font-weight: 800;
-    src: url('/public/blog-preview-card/fonts/static/Figtree-ExtraBold.ttf');
+  font-family: 'figtree';
+  font-style: bold;
+  font-weight: 800;
+  src: url('/public/blog-preview-card/fonts/static/Figtree-ExtraBold.ttf');
 }
 
 @font-face {
-    font-family: 'figtree';
-    font-style: 'semi-bold';
-    font-weight: 600;
-    src: url('/public/blog-preview-card/fonts/static/Figtree-SemiBold.ttf');
+  font-family: 'figtree';
+  font-style: 'semi-bold';
+  font-weight: 600;
+  src: url('/public/blog-preview-card/fonts/static/Figtree-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'work-sans';
+  font-style: 'regular';
+  font-weight: 400;
+  src: url('/faq-accordion/fonts/static/WorkSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'work-sans';
+  font-style: 'semi-bold';
+  font-weight: 600;
+  src: url('/faq-accordion/fonts/static/WorkSans-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'work-sans';
+  font-style: 'bold';
+  font-weight: 700;
+  src: url('/faq-accordion/fonts/static/WorkSans-Bold.ttf');
 }
