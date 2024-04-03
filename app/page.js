@@ -18,6 +18,9 @@ export default function Home() {
       <Link href='/faq-accordion'>
         <h3 className='text-3xl text-blue-600'>FAQ Accordion</h3>
       </Link>
+      <Link href='/newsletter-form'>
+        <h3 className='text-3xl text-blue-600'>Newsletter Form</h3>
+      </Link>
     </main>
   )
 }
