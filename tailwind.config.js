@@ -15,6 +15,8 @@ module.exports = {
         worksans: ['work-sans', 'sans-serif'],
         overpass: ['Overpass', 'sans-serif'],
         ubuntu: ['Ubuntu', 'sans-serif'],
+        alata: ['Alata', 'sans-serif'],
+        josefinsans: ['Josefin Sans', 'sans-serif'],
       },
     },
   },

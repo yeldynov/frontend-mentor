@@ -24,6 +24,9 @@ export default function Home() {
       <Link href='/blogr-landing'>
         <h3 className='text-3xl text-blue-600'>Blogr Landing Page</h3>
       </Link>
+      <Link href='/loopstudio'>
+        <h3 className='text-3xl text-blue-600'>Loopstudio Landing Page</h3>
+      </Link>
     </main>
   )
 }
