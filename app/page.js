@@ -21,6 +21,9 @@ export default function Home() {
       <Link href='/newsletter-form'>
         <h3 className='text-3xl text-blue-600'>Newsletter Form</h3>
       </Link>
+      <Link href='/blogr-landing'>
+        <h3 className='text-3xl text-blue-600'>Blogr Landing Page</h3>
+      </Link>
     </main>
   )
 }
