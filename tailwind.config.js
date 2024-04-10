@@ -18,6 +18,10 @@ module.exports = {
         alata: ['Alata', 'sans-serif'],
         josefinsans: ['Josefin Sans', 'sans-serif'],
       },
+      colors: {
+        'dark-gray': '#8C8C8C',
+        'darker-gray': '#6B6B6B',
+      },
     },
   },
   plugins: [require('flowbite/plugin')],
