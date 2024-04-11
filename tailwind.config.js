@@ -17,6 +17,8 @@ module.exports = {
         ubuntu: ['Ubuntu', 'sans-serif'],
         alata: ['Alata', 'sans-serif'],
         josefinsans: ['Josefin Sans', 'sans-serif'],
+        barlow: ['Barlow', 'sans-serif'],
+        barlowcondensed: ['Barlow Condensed', 'sans-serif'],
       },
       colors: {
         'dark-gray': '#8C8C8C',
