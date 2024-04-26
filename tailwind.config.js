@@ -19,6 +19,8 @@ module.exports = {
         josefinsans: ['Josefin Sans', 'sans-serif'],
         barlow: ['Barlow', 'sans-serif'],
         barlowcondensed: ['Barlow Condensed', 'sans-serif'],
+        dmserif: ['DM Serif Display', 'serif'],
+        karla: ['Karla', 'sans-serif'],
       },
       colors: {
         'dark-gray': '#8C8C8C',

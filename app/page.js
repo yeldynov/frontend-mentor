@@ -30,6 +30,9 @@ export default function Home() {
       <Link href='/project-tracking-intro'>
         <h3 className='text-3xl text-blue-600'>Project Tracking Intro Page</h3>
       </Link>
+      <Link href='/insure-lp'>
+        <h3 className='text-3xl text-blue-600'>Insure Landing Page</h3>
+      </Link>
     </main>
   )
 }
