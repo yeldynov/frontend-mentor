@@ -33,6 +33,9 @@ export default function Home() {
       <Link href='/insure-lp'>
         <h3 className='text-3xl text-blue-600'>Insure Landing Page</h3>
       </Link>
+      <Link href='/age-calculator'>
+        <h3 className='text-3xl text-blue-600'>Age Calculator</h3>
+      </Link>
     </main>
   )
 }

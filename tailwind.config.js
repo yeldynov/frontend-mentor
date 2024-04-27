@@ -21,6 +21,7 @@ module.exports = {
         barlowcondensed: ['Barlow Condensed', 'sans-serif'],
         dmserif: ['DM Serif Display', 'serif'],
         karla: ['Karla', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
         'dark-gray': '#8C8C8C',
