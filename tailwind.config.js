@@ -22,6 +22,7 @@ module.exports = {
         dmserif: ['DM Serif Display', 'serif'],
         karla: ['Karla', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
+        manrope: ['Manrope', 'sans-serif'],
       },
       colors: {
         'dark-gray': '#8C8C8C',

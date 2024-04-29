@@ -6,6 +6,9 @@ export default function Home() {
       <h1 className='text-6xl flex justify-center items-center text-center font-semibold'>
         Frontend Mentor Projects (new!)
       </h1>
+      <Link href='/article-preview'>
+        <h3 className='text-3xl text-blue-600'>Article Preview Component</h3>
+      </Link>
       <Link href='/recipe-page'>
         <h3 className='text-3xl text-blue-600'>Recipe Page</h3>
       </Link>
