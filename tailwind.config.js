@@ -23,6 +23,7 @@ module.exports = {
         karla: ['Karla', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
         manrope: ['Manrope', 'sans-serif'],
+        commissioner: ['Commissioner', 'sans-serif'],
       },
       colors: {
         'dark-gray': '#8C8C8C',

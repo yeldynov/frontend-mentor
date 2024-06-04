@@ -39,6 +39,9 @@ export default function Home() {
       <Link href='/age-calculator'>
         <h3 className='text-3xl text-blue-600'>Age Calculator</h3>
       </Link>
+      <Link href='/crowdfund'>
+        <h3 className='text-3xl text-blue-600'>Crowdfunding product page</h3>
+      </Link>
     </main>
   )
 }
