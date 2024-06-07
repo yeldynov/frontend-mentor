@@ -42,6 +42,9 @@ export default function Home() {
       <Link href='/crowdfund'>
         <h3 className='text-3xl text-blue-600'>Crowdfunding product page</h3>
       </Link>
+      <Link href='/clipboard-lp'>
+        <h3 className='text-3xl text-blue-600'>Clipboard Landing Page</h3>
+      </Link>
     </main>
   )
 }
