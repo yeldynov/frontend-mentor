@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alata:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&ital,wght@700,wght@800&ital');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&ital,wght@700,wght@800&ital");
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -44,55 +45,55 @@ body {
 }
 
 @font-face {
-  font-family: 'outfit';
+  font-family: "outfit";
   font-style: regular;
   font-weight: 400;
-  src: url('/recipe-page/fonts/outfit/static/Outfit-Regular.ttf');
+  src: url("/recipe-page/fonts/outfit/static/Outfit-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'young-serif';
+  font-family: "young-serif";
   font-style: regular;
   font-weight: 400;
-  src: url('/recipe-page/fonts/young-serif/YoungSerif-Regular.ttf');
+  src: url("/recipe-page/fonts/young-serif/YoungSerif-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'inter';
+  font-family: "inter";
   font-style: regular;
   font-weight: 400;
-  src: url('/social-links-profile/fonts/Inter-VariableFont_slnt\,wght.ttf');
+  src: url("/social-links-profile/fonts/Inter-VariableFont_slnt\,wght.ttf");
 }
 
 @font-face {
-  font-family: 'figtree';
+  font-family: "figtree";
   font-style: bold;
   font-weight: 800;
-  src: url('/public/blog-preview-card/fonts/static/Figtree-ExtraBold.ttf');
+  src: url("/public/blog-preview-card/fonts/static/Figtree-ExtraBold.ttf");
 }
 
 @font-face {
-  font-family: 'figtree';
-  font-style: 'semi-bold';
+  font-family: "figtree";
+  font-style: "semi-bold";
   font-weight: 600;
-  src: url('/public/blog-preview-card/fonts/static/Figtree-SemiBold.ttf');
+  src: url("/public/blog-preview-card/fonts/static/Figtree-SemiBold.ttf");
 }
 
 @font-face {
-  font-family: 'work-sans';
-  font-style: 'regular';
+  font-family: "work-sans";
+  font-style: "regular";
   font-weight: 400;
-  src: url('/faq-accordion/fonts/static/WorkSans-Regular.ttf');
+  src: url("/faq-accordion/fonts/static/WorkSans-Regular.ttf");
 }
 @font-face {
-  font-family: 'work-sans';
-  font-style: 'semi-bold';
+  font-family: "work-sans";
+  font-style: "semi-bold";
   font-weight: 600;
-  src: url('/faq-accordion/fonts/static/WorkSans-SemiBold.ttf');
+  src: url("/faq-accordion/fonts/static/WorkSans-SemiBold.ttf");
 }
 @font-face {
-  font-family: 'work-sans';
-  font-style: 'bold';
+  font-family: "work-sans";
+  font-style: "bold";
   font-weight: 700;
-  src: url('/faq-accordion/fonts/static/WorkSans-Bold.ttf');
+  src: url("/faq-accordion/fonts/static/WorkSans-Bold.ttf");
 }
