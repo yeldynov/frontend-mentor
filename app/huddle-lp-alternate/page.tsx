@@ -40,9 +40,9 @@ const HuddlePage = () => {
         </div>
       </header>
 
-      <main className="mx-5 mt-5 flex items-center justify-center md:mx-[105px] md:mt-36">
-        <section className="flex flex-col-reverse items-center justify-between gap-12 rounded-2xl bg-green-500 px-9 shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:flex-row md:gap-0 md:p-10">
-          <div className="flex flex-col justify-center gap-4 pt-4 text-center md:pl-20 md:text-left">
+      <main className="mx-5 mt-5 flex flex-col items-center justify-center gap-10 md:mx-[105px] md:mt-36">
+        <section className="flex flex-col-reverse items-center justify-between gap-12 rounded-2xl bg-white px-9 py-[56px] pb-10 shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:flex-row md:gap-0 md:p-10 md:py-10">
+          <div className="flex flex-col justify-center gap-5 pt-5 text-center md:gap-4 md:pl-20 md:pt-4 md:text-left">
             <h2 className="font-poppins text-[22px] font-semibold md:text-[28px]">
               Grow Together
             </h2>
@@ -53,10 +53,51 @@ const HuddlePage = () => {
             </p>
           </div>
 
-          <div className="mt-2 w-4/5 md:ml-10 md:mt-0 md:py-3">
+          <div className="mt-2 w-[85%] md:ml-10 md:mt-0 md:w-4/5 md:py-3">
             <img
-              className="ml-3"
+              className="md:ml-3"
               src="/huddle-lp-alternate/illustration-grow-together.svg"
+              alt=""
+            />
+          </div>
+        </section>
+
+        <section className="flex flex-col-reverse items-center justify-between gap-12 rounded-2xl bg-white px-9 py-[56px] pb-10 shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:flex-row md:gap-0 md:p-10 md:py-10">
+          <div className="mt-2 w-[85%] md:ml-10 md:mt-0 md:w-4/5 md:py-3">
+            <img
+              className="md:ml-3"
+              src="/huddle-lp-alternate/illustration-flowing-conversation.svg"
+              alt=""
+            />
+          </div>
+          <div className="flex flex-col justify-center gap-5 pt-5 text-center md:gap-4 md:pl-20 md:pt-4 md:text-left">
+            <h2 className="font-poppins text-[22px] font-semibold md:text-[28px]">
+              Flowing Conversations
+            </h2>
+            <p className="text-base md:text-lg">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </section>
+
+        <section className="flex flex-col-reverse items-center justify-between gap-12 rounded-2xl bg-white px-9 py-[56px] pb-10 shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:flex-row md:gap-0 md:p-10 md:py-10">
+          <div className="flex flex-col justify-center gap-5 pt-5 text-center md:gap-4 md:pl-20 md:pt-4 md:text-left">
+            <h2 className="font-poppins text-[22px] font-semibold md:text-[28px]">
+              Your Users
+            </h2>
+            <p className="text-base md:w-[80%] md:text-lg">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+
+          <div className="mt-2 w-[85%] md:ml-10 md:mt-0 md:w-4/5 md:py-3">
+            <img
+              className="md:ml-3"
+              src="/huddle-lp-alternate/illustration-your-users.svg"
               alt=""
             />
           </div>
