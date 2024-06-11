@@ -2,7 +2,7 @@ import React from "react";
 
 const HuddlePage = () => {
   return (
-    <div className="text-huddle-dark-cyan min-w-[375px] font-sans text-lg lg:w-[1440px]">
+    <div className="text-huddle-dark-cyan min-w-[375px] font-sans text-lg lg:max-w-[1440px]">
       <header className="bg-opacity-50 bg-[url('/huddle-lp-alternate/bg-hero-desktop.svg')] bg-cover pb-20">
         <div className="flex flex-col px-5 pt-7 md:px-20 md:pt-12">
           {/* nav */}
@@ -39,6 +39,29 @@ const HuddlePage = () => {
           </div>
         </div>
       </header>
+
+      <main className="mx-5 mt-5 flex items-center justify-center md:mx-[105px] md:mt-36">
+        <section className="flex flex-col-reverse items-center justify-between gap-12 rounded-2xl bg-green-500 px-9 shadow-[0_8px_30px_rgb(0,0,0,0.12)] md:flex-row md:gap-0 md:p-10">
+          <div className="flex flex-col justify-center gap-4 pt-4 text-center md:pl-20 md:text-left">
+            <h2 className="font-poppins text-[22px] font-semibold md:text-[28px]">
+              Grow Together
+            </h2>
+            <p className="text-base md:w-[80%] md:text-lg">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+
+          <div className="mt-2 w-4/5 md:ml-10 md:mt-0 md:py-3">
+            <img
+              className="ml-3"
+              src="/huddle-lp-alternate/illustration-grow-together.svg"
+              alt=""
+            />
+          </div>
+        </section>
+      </main>
     </div>
   );
 };
