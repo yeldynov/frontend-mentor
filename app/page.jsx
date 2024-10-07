@@ -2,12 +2,17 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center gap-10 p-24">
+    <main className="flex flex-col items-center min-h-screen gap-10 p-24">
       <div className="fixed inset-0 -z-10 bg-[url('/background.jpeg')] bg-cover opacity-50"></div>
-      <h1 className="flex items-center justify-center text-center font-baijam text-4xl font-semibold">
+      <h1 className="flex items-center justify-center text-4xl font-semibold text-center font-baijam">
         Frontend Mentor Projects (new!)
       </h1>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <CardLink
+          href="/bento-grid"
+          title="Bento Grid"
+          imageSrc="screens/screen15.png"
+        />
         <CardLink
           href="/huddle-lp-alternate"
           title="Huddle Landing Page (alternative)"
@@ -80,7 +85,7 @@ export default function Home() {
           imageSrc="screens/screen1.png"
         />
       </div>
-      <h2 className="flex items-center justify-center self-end text-center font-baijam text-2xl font-semibold italic">
+      <h2 className="flex items-center self-end justify-center text-2xl italic font-semibold text-center font-baijam">
         By Nikita Yeldynov
       </h2>
     </main>
@@ -90,14 +95,14 @@ export default function Home() {
 function CardLink({ href, title, imageSrc }) {
   return (
     <Link href={href}>
-      <div className="flex h-80 w-64 transform cursor-pointer flex-col items-center justify-start rounded-lg bg-white p-4 shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:bg-blue-50 hover:shadow-xl">
+      <div className="flex flex-col items-center justify-start w-64 p-4 transition duration-300 ease-in-out transform bg-white rounded-lg shadow-lg cursor-pointer h-80 hover:scale-105 hover:bg-blue-50 hover:shadow-xl">
         <img
           src={imageSrc}
           alt={title}
-          className="h-48 w-full rounded-t-lg object-cover"
+          className="object-cover w-full h-48 rounded-t-lg"
         />
-        <div className="flex h-full flex-col items-center justify-center p-4">
-          <h3 className="text-center text-xl text-blue-600">{title}</h3>
+        <div className="flex flex-col items-center justify-center h-full p-4">
+          <h3 className="text-xl text-center text-blue-600">{title}</h3>
         </div>
       </div>
     </Link>

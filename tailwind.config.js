@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        "8xl": "1440px", // Custom breakpoint for larger screens
+      },
       fontFamily: {
         outfit: ["outfit", "sans-serif"],
         youngserif: ["young-serif", "sans-serif"],
@@ -20,6 +23,7 @@ module.exports = {
         barlow: ["Barlow", "sans-serif"],
         barlowcondensed: ["Barlow Condensed", "sans-serif"],
         dmserif: ["DM Serif Display", "serif"],
+        dmsans: ['"DM Sans"', "sans-serif"],
         karla: ["Karla", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         manrope: ["Manrope", "sans-serif"],
@@ -39,6 +43,17 @@ module.exports = {
         "huddle-grayish-blue": "#7e99ab",
         "huddle-pale-cyan": "#e2ffff",
         "huddle-dark-cyan": "#001f27",
+
+        bentoPurple: {
+          light: "hsl(254, 88%, 90%)", // Purple 100
+          DEFAULT: "hsl(256, 67%, 59%)", // Purple 500
+        },
+        bentoYellow: {
+          light: "hsl(31, 66%, 93%)", // Yellow 100
+          DEFAULT: "hsl(39, 100%, 71%)", // Yellow 500
+        },
+        bentoWhite: "hsl(0, 0%, 100%)", // White
+        bentoBlack: "hsl(0, 0%, 7%)", // Black
       },
     },
   },
