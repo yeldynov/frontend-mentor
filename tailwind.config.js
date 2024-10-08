@@ -43,17 +43,29 @@ module.exports = {
         "huddle-grayish-blue": "#7e99ab",
         "huddle-pale-cyan": "#e2ffff",
         "huddle-dark-cyan": "#001f27",
-
+        // bento grid
         bentoPurple: {
-          light: "hsl(254, 88%, 90%)", // Purple 100
-          DEFAULT: "hsl(256, 67%, 59%)", // Purple 500
+          light: "hsl(254, 88%, 90%)",
+          DEFAULT: "hsl(256, 67%, 59%)",
         },
         bentoYellow: {
-          light: "hsl(31, 66%, 93%)", // Yellow 100
-          DEFAULT: "hsl(39, 100%, 71%)", // Yellow 500
+          light: "hsl(31, 66%, 93%)",
+          DEFAULT: "hsl(39, 100%, 71%)",
         },
-        bentoWhite: "hsl(0, 0%, 100%)", // White
-        bentoBlack: "hsl(0, 0%, 7%)", // Black
+        bentoWhite: "hsl(0, 0%, 100%)",
+        bentoBlack: "hsl(0, 0%, 7%)",
+
+        // contact form
+        formGreen: {
+          200: "hsl(148, 38%, 91%)",
+          600: "hsl(169, 82%, 27%)",
+        },
+        formRed: "hsl(0, 66%, 54%)",
+        formNeutral: {
+          white: "hsl(0, 0%, 100%)",
+          500: "hsl(186, 15%, 59%)",
+          900: "hsl(187, 24%, 22%)",
+        },
       },
     },
   },
