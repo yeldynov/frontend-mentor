@@ -66,6 +66,10 @@ module.exports = {
           500: "hsl(186, 15%, 59%)",
           900: "hsl(187, 24%, 22%)",
         },
+
+        // testimonial slider
+        testimonialDarkBlue: "hsl(240, 38%, 20%)",
+        testimonialGrayishBlue: "hsl(240, 18%, 77%)",
       },
     },
   },

@@ -89,6 +89,11 @@ export default function Home() {
           title="Contact Form"
           imageSrc="screens/screen16.png"
         />
+        <CardLink
+          href="/testimonials-slider"
+          title="Testimonial Slider"
+          imageSrc="screens/screen17.png"
+        />
       </div>
       <h2 className="flex items-center justify-center self-end text-center font-baijam text-2xl font-semibold italic">
         By Nikita Yeldynov
